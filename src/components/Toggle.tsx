@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Switch } from "@headlessui/react";
+import { LayoutForTeatComponent } from "./LayoutForTeatComponent";
 
 export const Toggle = () => {
   const [isEnabled, setIsEnabled] = useState(false);
@@ -20,9 +21,11 @@ export const Toggle = () => {
           } inline-block w-4 h-4 transform bg-white rounded-full `}
         />
       </Switch>
-      <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-lg">
-        Save changes
-      </button>
+      <LayoutForTeatComponent>
+        <button className="bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 rounded-xl ">
+          Save changes
+        </button>
+      </LayoutForTeatComponent>
     </>
   );
 };
