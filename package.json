@@ -12,10 +12,19 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.13",
+    "@types/styled-components": "^5.1.24",
     "react": "^17.0.2",
+    "react-burger-menu": "^3.0.6",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-responsive": "^9.0.0-beta.6",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "react-scroll": "^1.8.6",
+    "styled-components": "^5.3.3",
+    "tailwindcss-children": "^2.1.0",
+    "twin.macro": "^2.8.2",
     "typescript": "^4.6.2",
     "web-vitals": "^2.1.4"
   },
@@ -30,6 +39,12 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "babelMacros": {
+    "twin": {
+      "config": "./src/tailwind.config.js",
+      "preset": "styled-components"
+    }
   },
   "browserslist": {
     "production": [
@@ -46,7 +61,19 @@
   "devDependencies": {
     "@types/react-router-dom": "^5.3.3",
     "autoprefixer": "^10.4.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "postcss": "^8.4.7",
+    "prettier": "^2.5.1",
     "tailwindcss": "^3.0.23"
   }
 }

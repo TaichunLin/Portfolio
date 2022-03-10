@@ -1,18 +1,19 @@
-import React from "react";
-import "./App.css";
-import { Toggle } from "./components/Toggle";
-import { FeatureSections } from "./components/FeatureSections";
-import Header from "./components/practice/TypeScript/Header";
-import { LayoutForTeatComponent } from "./components/LayoutForTeatComponent";
-import Egg from "./components/eggSelect";
+import React from 'react';
+import { Toggle } from './components/practice/Toggle';
+import { FeatureSections } from './components/practice/FeatureSections';
+import Header from './components/practice/TypeScript/Header';
+import { LayoutForTeatComponent } from './components/practice/LayoutForTeatComponent';
+import Egg from './components/eggSelect';
+import { MainWeb } from './components/mainWeb';
 
 function App() {
   return (
     <>
+      <MainWeb />
       <Egg />
       <LayoutForTeatComponent>
         <h1 className="text-3xl font-bold underline">Hello world!</h1>
-        <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+        <div className="flex items-center max-w-sm p-6 mx-auto space-x-4 bg-white shadow-lg rounded-xl">
           <div>
             <div className="text-xl font-medium text-black">ChitChat</div>
             <p className="text-slate-500">You have a new message!</p>
