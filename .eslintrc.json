@@ -36,5 +36,10 @@
         "ignoreRegExpLiterals": true
       }
     ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
   }
 }

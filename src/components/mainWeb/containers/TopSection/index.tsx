@@ -1,13 +1,21 @@
-import React from 'react';
-import styled from 'styled-components';
-import tw from 'twin.macro';
+import React, { useState } from 'react';
 
-const TopSectionContainer = styled.div`
-  ${tw`relative flex flex-col h-screen max-w-full `}
-`;
+import { NavBar } from '../../components/NavBar';
+import { SideBar } from '../../components/SideBar';
 
 const TopSection = () => {
-  return <TopSectionContainer>TopSection</TopSectionContainer>;
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const toggle: () => void = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div className="h-screen max-w-full bg-bg">
+      <NavBar toggle={toggle} />
+      <SideBar toggle={toggle} isOpen={isOpen} />
+    </div>
+  );
 };
 
 export default TopSection;

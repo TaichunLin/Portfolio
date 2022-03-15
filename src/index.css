@@ -3,35 +3,74 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Chivo:ital,wght@0,400;1,700&family=Cinzel+Decorative:wght@400;900&family=Cormorant+Garamond:ital,wght@0,500;1,700&family=Eczar:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&family=VT323&display=swap');
 
-body {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Chivo', monospace;
-}
-
 @layer base {
-  :root {
-    --color-primary: #4ff0c9;
-    --color-secondary: #172a45;
-    --color-white-alt: #ccd6f6;
-    --color-button-muted: 45, 52, 54;
+  * {
+    @apply tracking-widest font-eczar;
   }
-  .theme-cute {
-    --color-primary: #4ff0c9;
-    --color-secondary: #172a45;
-    --color-white-alt: #ccd6f6;
+  h1 {
+    @apply text-2xl font-bold text-secondary-50 font-asul;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+
+  :root {
+    --color-primary: 199, 96, 40;
+    --color-primary-rgb: #c76028ff;
+    --color-secondary: 7, 55, 70;
+    --color-secondary-100: #625d5d;
+    --color-secondary-rgb: #073746;
+    /* --color-third:63,109,123; */
+    --color-bg: 252, 246, 236;
+    --color-bg-rgb: rgba(252, 246, 236, 1);
+  }
+  .theme-orange {
+    --color-primary: 240, 109, 2;
+    --color-primary-rgb: rgb(240, 109, 2, 1);
+
+    --color-secondary: 0, 4, 3;
+    --color-secondary-rgb: rgb(0, 4, 3, 1);
+
+    --color-bg: 250, 166, 70;
+    --color-bg-rgb: rgb(250, 166, 70, 1);
   }
   .theme-brutalism {
-    --color-primary: #4ff0c9;
-    --color-secondary: #172a45;
-    --color-white-alt: #ccd6f6;
+    --color-primary: 250, 207, 113;
+    --color-primary-rgb: rgb(250, 207, 113, 1);
+
+    --color-secondary: 254, 124, 92;
+    --color-secondary-rgb: rgb(254, 124, 92, 1);
+
+    --color-bg: 40, 71, 140;
+    --color-bg-rgb: rgb(40, 71, 140, 1);
   }
-  .theme-mono {
-    --color-primary: #4ff0c9;
-    --color-secondary: #172a45;
-    --color-white-alt: #ccd6f6;
+  .theme-green {
+    --color-primary: 0, 66, 56;
+    --color-primary-rgb: rgb(0, 66, 56, 1);
+
+    --color-secondary: 102, 141, 47;
+    --color-secondary-rgb: rgb(102, 141, 47, 1);
+
+    --color-bg: 243, 238, 226;
+    --color-bg-rgb: rgb(243, 238, 226, 1);
   }
-  /* .theme-boring
-  .theme-startup
-  .theme-elegant  */
+  .theme-monochrome {
+    --color-primary: 40, 44, 44;
+    --color-primary-rgb: rgb(40, 44, 44, 1);
+
+    /* --color-secondary: 102,141,47; */
+    /* --color-secondary-rgb: rgb(102,141,47, 1); */
+
+    --color-bg: 252, 252, 252;
+    --color-bg-rgb: rgb(252, 252, 252, 1);
+  }
+}
+
+@layer components {
+  .center {
+    @apply flex items-center justify-center;
+  }
 }

@@ -11,28 +11,36 @@ function withOpacity(variableName) {
 }
 
 module.exports = {
+  mode: 'jit',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
       fontFamily: {
-        asul: ['Asul', 'monospace'],
-        chivo: ['Chivo', 'monospace'],
-        cd: ['Cinzel Decorative', 'monospace'],
-        cg: ['Cormorant Garamond', 'monospace'],
-        eczar: ['Eczar', 'monospace'],
-        ps: ['Press Start 2P', 'monospace'],
+        asul: ['Asul', 'Roboto', 'monospace'],
+        chivo: ['Chivo', 'Roboto', 'monospace'],
+        cd: ['Cinzel Decorative', 'Roboto', 'monospace'],
+        cg: ['Cormorant Garamond', 'Roboto', 'monospace'],
+        eczar: ['Eczar', 'Roboto', 'monospace'],
+        press: ['Press Start 2P', 'Roboto', 'monospace'],
         roboto: ['Roboto', 'monospace'],
-        VT323: ['VT323', 'monospace'],
+        VT323: ['VT323', 'Roboto', 'monospace'],
       },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
-        primary: 'var(--color-primary)',
-        secondary: 'var(--color-secondary)',
-        whiteAlt: 'var(--color-white-alt)',
-        'button-muted': withOpacity('--color-button-muted'),
+        primary: {
+          50: withOpacity('--color-primary'),
+          // 100: 'var(--color-primary-100)',
+        },
+
+        secondary: {
+          50: withOpacity('--color-secondary'),
+          100: 'var(--color-secondary-100)',
+        },
+
+        bg: withOpacity('--color-bg'),
       },
     },
   },
-  plugins: [],
+  plugins: [require('tailwindcss-textshadow')],
 };

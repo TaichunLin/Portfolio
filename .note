@@ -1,12 +1,14 @@
-/* my button color here would be like [green]:
+my button color here would be like [green]:
 font-semibold // strong buttons
 thinkg about which one is more important in the moment (and which position   I should put in it, right? left? center?)
 
 
 LOGO{
-    font:__,
+    font:font-cd,
     color:__,
 }
+
+
 
 
 
@@ -59,4 +61,26 @@ plugins: [
     require('tailwindcss-children'),
   ],
 
-  tailwindcss: { config: './tailwindcss-config.js' }, */
+  tailwindcss: { config: './tailwindcss-config.js' },
+
+
+
+  <h1 className="font-bold text-9xl font-asul">Leah, LEAH</h1>
+
+  <h1 className="italic font-bold text-9xl font-cd">Leah, LEAH</h1>
+
+  <h1 className="font-bold text-9xl font-eczar">Leah, LEAH</h1>
+
+  <h1 className="font-bold text-9xl font-VT323">Leah, LEAH</h1>
+</>
+
+
+
+export const deviceSize = {
+    mobile: 640,
+    tablet: 768,
+    laptop: 1024,
+    desktop: 1280,
+    widescreen: 1536,
+  };
+  
