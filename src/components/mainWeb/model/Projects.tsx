@@ -59,4 +59,19 @@ export const Projects = [
     lightText: true,
     buttonLabel: 'Start Today',
   },
+  {
+    id: 'Project 5',
+    name: 'Project 5',
+    topLine: 'hook-useContent',
+    headline: 'The shining, everyday moment at Prada',
+    descr:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit sequi',
+    link: 'path or url',
+    img: require('../Imgs/ProjectImg/svg-1.svg').default,
+    alt: 'Project 1 imgage.',
+    imgStart: true,
+    lightBg: true,
+    lightText: true,
+    buttonLabel: 'Start Today',
+  },
 ];

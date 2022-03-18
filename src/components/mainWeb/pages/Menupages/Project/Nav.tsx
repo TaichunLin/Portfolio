@@ -8,9 +8,18 @@ interface Props {}
 const NavLinks = styled(Link)`
   ${tw`font-bold`}
   &.active {
-    // border-bottom: 3px solid #01bf71;
     color: var(--color-bg-rgb);
   }
+`;
+
+const NavLinkWrapper = styled.div`
+  &:hover {
+    border-bottom: 3px solid var(--color-bg-rgb);
+  }
+`;
+
+const NavItem = styled.li`
+  ${tw`flex items-center justify-center p-4 shadow-inner cursor-pointer h-14`}
 `;
 
 export const Nav: React.FC<Props> = () => {
@@ -31,30 +40,39 @@ export const Nav: React.FC<Props> = () => {
   return (
     <ul
       className={
-        ' sticky top-0 flex items-center justify-around mt-2 text-center ' +
-        (scrollNav ? 'bg-secondary-50/50' : 'bg-transparent')
+        ' sticky top-0 flex items-center justify-around mt-2 text-center max-w-full ' +
+        (scrollNav ? 'bg-secondary-50/50' : 'bg-transparent shadow-inner')
       }
     >
       {Projects.map((project) => (
-        <li
-          key={project.name}
-          className={
-            ' p-4 duration-300 cursor-pointer h-14 flex items-center justify-center'
-          }
-        >
-          <div className="hover:border-b-[3px] border-primary-50 ">
+        <NavItem>
+          <NavLinkWrapper>
             <NavLinks
+              key={project.name}
               to={project.name}
               smooth={true}
-              duration={500}
+              duration={400}
               spy={true}
               activeClass="active"
             >
               {project.name}
             </NavLinks>
-          </div>
-        </li>
+          </NavLinkWrapper>
+        </NavItem>
       ))}
+      <NavItem>
+        <NavLinkWrapper>
+          <NavLinks
+            to="services"
+            smooth={true}
+            duration={400}
+            spy={true}
+            activeClass="active"
+          >
+            Services
+          </NavLinks>
+        </NavLinkWrapper>
+      </NavItem>
     </ul>
   );
 };

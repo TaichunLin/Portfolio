@@ -7,8 +7,6 @@ function App() {
     <>
       <div className="box-border w-full h-full m-0">
         <MainWeb />
-        <div className="p-8 m-8 bg-white" />
-        <Egg />
       </div>
     </>
   );
