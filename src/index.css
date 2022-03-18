@@ -1,4 +1,5 @@
 @tailwind base;
+
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Chivo:ital,wght@0,400;1,700&family=Cinzel+Decorative:wght@400;900&family=Cormorant+Garamond:ital,wght@0,500;1,700&family=Eczar:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&family=VT323&display=swap');
@@ -21,11 +22,11 @@
     --color-primary: 199, 96, 40;
     --color-primary-rgb: #c76028ff;
     --color-secondary: 7, 55, 70;
-    --color-secondary-100: #625d5d;
+    --color-secondary-100: #3f6d7b;
     --color-secondary-rgb: #073746;
     /* --color-third:63,109,123; */
-    --color-bg: 252, 246, 236;
-    --color-bg-rgb: rgba(252, 246, 236, 1);
+    --color-bg: 244, 246, 252;
+    --color-bg-rgb: #f4f6fc;
   }
   .theme-orange {
     --color-primary: 240, 109, 2;
