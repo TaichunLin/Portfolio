@@ -8,4 +8,19 @@
   }
   .sidebar-tooltip {
   }
+  .contact-input {
+    @apply w-full h-10 text-gray-900 placeholder-transparent border-b-2 border-gray-300 focus:outline-none focus:border-primary-50;
+  }
+  .contact-label {
+    @apply absolute left-0 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm after:content-['*'] after:ml-0.5 after:text-red-500;
+  }
+  .contact-textarea {
+    @apply w-full text-gray-900 placeholder-transparent border-2 border-gray-300 resize-none focus:outline-none focus:border-primary-50;
+  }
+  .contact-label-textarea {
+    @apply absolute text-sm text-gray-600 transition-all left-0 -top-6 peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400  peer-focus:text-gray-600 peer-focus:text-sm after:content-['*'] after:ml-0.5 after:text-red-500;
+  }
+  .contact-sumbit {
+    @apply block w-full px-4 py-2 mt-10 font-semibold text-center text-white rounded cursor-pointer bg-primary-50 hover:bg-primary-50/80 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-primary-50 focus:ring-opacity-80;
+  }
 }
