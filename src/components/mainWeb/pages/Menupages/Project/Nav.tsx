@@ -40,7 +40,7 @@ export const Nav: React.FC<Props> = () => {
   return (
     <ul
       className={
-        ' sticky top-0 flex items-center justify-around mt-2 text-center max-w-full ' +
+        ' sticky top-0 flex items-center justify-around mt-2 text-center max-w-full flex-wrap' +
         (scrollNav ? 'bg-secondary-50/50' : 'bg-transparent shadow-inner')
       }
     >

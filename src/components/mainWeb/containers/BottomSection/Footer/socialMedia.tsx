@@ -10,15 +10,18 @@ export const SocialMedia: React.FC<Props> = () => {
   };
   return (
     <div className="flex flex-col items-center">
-      <div className="mb-4 cursor-pointer">
-        <Link to="/scroll" onClick={toggleHome} className="text-2xl font-bold">
+      <div className="flex flex-col items-center mb-5 cursor-pointer">
+        <Link to="/" onClick={toggleHome} className="text-2xl font-bold">
           Leah
         </Link>
+        <small className="mb-1 tracking-wide text-bg">
+          helloleah23@gmail.com
+        </small>
       </div>
-      <small className="mb-1 tracking-wide capitalize">
+      <SocialIcons />
+      <small className="mt-1 tracking-wide capitalize">
         copyright © {new Date().getFullYear()} leah All rights reserved.
       </small>
-      <SocialIcons />
     </div>
   );
 };
