@@ -38,7 +38,7 @@ export const FeatureSections = () => {
       <div className="py-12">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h2 className="text-base font-semibold tracking-wide text-indigo-600 uppercase">
+            <h2 className="text-base font-semibold tracking-wide uppercase text-primary-50">
               Transactions
             </h2>
             <p className="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
@@ -55,7 +55,7 @@ export const FeatureSections = () => {
               {features.map((feature) => (
                 <div key={feature.name} className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center w-12 h-12 text-white bg-indigo-500 rounded-md">
+                    <div className="absolute flex items-center justify-center w-12 h-12 text-white rounded-md bg-primary-50">
                       <feature.icon className="w-6 h-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg font-medium leading-6 text-gray-900">
