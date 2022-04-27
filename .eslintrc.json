@@ -1,10 +1,5 @@
 {
-  "extends": [
-    "airbnb",
-    "plugin:prettier/recommended",
-    "prettier/react",
-    "plugin:node/recommended"
-  ],
+  "extends": ["airbnb", "plugin:node/recommended"],
   "env": {
     "browser": true,
     "commonjs": true,
@@ -25,7 +20,7 @@
         "no-process-exit": "off",
         "object-shorthand": "off",
         "class-methods-use-this": "off",
-        "code": 80,
+        "code": 120,
         "tabWidth": 2,
         "comments": 80,
         "ignoreComments": false,
@@ -41,5 +36,8 @@
     "import/resolver": {
       "typescript": {}
     }
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }

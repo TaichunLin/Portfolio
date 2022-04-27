@@ -14,7 +14,7 @@ export const Logo: React.FC<Props> = ({ toggleHome }) => {
           aria-hidden="true"
         ></span>
         <Link
-          to="/"
+          to="/portfolio/"
           className="relative text-2xl italic font-black uppercase font-cd"
         >
           Leah

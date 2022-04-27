@@ -22,6 +22,7 @@ export const MainWeb = () => {
           }
         />
         {/* <Route path="/" element={<Navigate to="/home" />} /> */}
+        <Route path="/portfolio/" element={<Home />} />
         <Route path="/" element={<Home />} />
 
         {NavLinks.map((NavLink) => (
