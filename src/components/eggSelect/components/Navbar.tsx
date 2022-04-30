@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 interface Props {
   toggle: () => void;
@@ -10,15 +10,19 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
   return (
     <nav
       role="navigation"
-      className="font-mono text-black bg-gray-100 flex justify-between items-center h-16 relative shadow-sm"
+      className="relative flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 bg-gray-100 shadow-sm"
     >
-      <Link to="/egg" className="pl-8">
-        EGG
+      <Link
+        to="/egg"
+        className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300"
+      >
+        Leah
+        <img src="" alt="" />
       </Link>
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
+          className="w-6 h-6"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -31,17 +35,17 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
           />
         </svg>
       </div>
-      <div className="pr-8 md:block hidden">
+      <div className="hidden pr-8 md:block">
         <Link className="p-4" to="/egg">
           Home
         </Link>
-        <Link className="p-4" to="/menu">
-          Menu
+        <Link className="p-4" to="/egg/menu">
+          Projects
         </Link>
-        <Link className="p-4" to="/about">
+        <Link className="p-4" to="/egg/about">
           About
         </Link>
-        <Link className="p-4" to="/contact">
+        <Link className="p-4" to="/egg/contact">
           Contact
         </Link>
       </div>

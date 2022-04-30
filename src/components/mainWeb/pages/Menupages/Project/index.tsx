@@ -1,7 +1,3 @@
-import React, { useState, useEffect } from 'react';
-import Egg from '../../../../eggSelect';
-import Counter from '../../../containers/CenterSection/Counter';
-
 import { Nav } from './Nav';
 import { ProjectsInfor } from './ProjectsInfor';
 import { Services } from './Services';
@@ -17,8 +13,6 @@ export const ProjectsPage = () => {
       </div> */}
       <Services />
       <ProjectsInfor />
-      <Egg />
-      <Counter buttonText="Click Me!" />
     </>
   );
 };

@@ -18,18 +18,23 @@ const Egg = () => {
   };
 
   return (
-    <>
+    <div className="bg-gray-100">
       <Navbar toggle={toggle} />
       <Dropdown toggle={toggle} isOpen={isOpen} />
+      <div className="flex items-center justify-center ">
+        <hr className="w-1/2" />
+      </div>
       <Routes>
-        <Route path="/egg" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
+      <div className="flex items-center justify-center ">
+        <hr className="w-1/2 " />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

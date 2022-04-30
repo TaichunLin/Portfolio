@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
 export const About = () => {
   return (
-    <div className="h-screen flex justify-center items-center bg-yellow-300">
-      <h1 className="text-9xl uppercase font-black">About Page</h1>
+    <div className="flex items-center justify-center h-screen bg-yellow-300">
+      <h1 className="font-black uppercase text-9xl">About Page</h1>
     </div>
   );
 };
