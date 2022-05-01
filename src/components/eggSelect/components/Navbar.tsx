@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { Link } from 'react-router-dom';
 
@@ -7,10 +7,27 @@ interface Props {
 }
 
 const Navbar: React.FC<Props> = ({ toggle }) => {
+  const [scrollNav, setScrollNav] = useState<boolean>(false);
+
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setScrollNav(true);
+    } else {
+      setScrollNav(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeNav);
+  }, []);
+
   return (
     <nav
       role="navigation"
-      className="relative flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 bg-gray-100 shadow-sm"
+      className={
+        'sticky top-0 flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 shadow-sm ' +
+        (scrollNav ? 'bg-transparent' : 'bg-gray-100')
+      }
     >
       <Link
         to="/egg"
@@ -39,7 +56,7 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
         <Link className="p-4" to="/egg">
           Home
         </Link>
-        <Link className="p-4" to="/egg/menu">
+        <Link className="p-4" to="/egg/projects">
           Projects
         </Link>
         <Link className="p-4" to="/egg/about">

@@ -6,7 +6,7 @@ import './index.css';
 import { Home } from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import { About } from './pages/About';
-import { Menu } from './pages/Menu';
+import { ProjectsPage } from './pages/Projects/index';
 import { Contact } from './pages/Contact';
 import { Dropdown } from './components/Dropdown';
 
@@ -27,7 +27,7 @@ const Egg = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/menu" element={<Menu />} />
+        <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <div className="flex items-center justify-center ">
