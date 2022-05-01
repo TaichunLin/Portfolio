@@ -47,7 +47,7 @@ export const NavBar: React.FC<Props> = ({
         {NavLinks.map((NavLink) => (
           <div key={NavLink.name}>
             <Link
-              to={NavLink.path}
+              to={NavLink.link}
               className="p-5 mx-1 font-bold capitalize duration-200 ease-in-out cursor-pointer hover:border-b-4 border-primary-50 active:transition active:bg-white"
             >
               {NavLink.name}

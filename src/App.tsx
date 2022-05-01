@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/mainweb" element={<MainWeb />} />
+        <Route path="/mainweb/*" element={<MainWeb />} />
         <Route path="/" element={<Catelogue />} />
         <Route path="/catelogue" element={<Catelogue />} />
         <Route path="/portfolio/" element={<Catelogue />} />

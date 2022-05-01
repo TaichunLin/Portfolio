@@ -6,19 +6,19 @@ export const NavLinks = [
   {
     name: 'about me',
     path: '/about-me',
-    subRoute: 'about-me',
+    link: '/mainweb/about-me',
     element: AboutMe,
   },
   {
     name: 'contact',
     path: '/contact',
-    subRoute: 'contact',
+    link: '/mainweb/contact',
     element: Contact,
   },
   {
     name: 'projects',
     path: '/projects',
-    subRoute: 'projects',
+    link: '/mainweb/projects',
     element: ProjectsPage,
   },
 ];
