@@ -1,5 +1,5 @@
 .menu-card {
-  @apply flex flex-wrap items-center justify-end h-screen py-20 pr-20 font-mono sm:m-auto;
+  @apply flex flex-wrap items-center justify-end py-20 pr-20 font-mono sm:m-auto;
 }
 .box-card {
   @apply flex items-center justify-center p-4 m-8 bg-gray-100 border-l-8 border-gray-300 border-double shadow-inner w-80 h-80 hover:border-gray-700;

@@ -53,9 +53,6 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
         </svg>
       </div>
       <div className="hidden pr-8 md:block">
-        <Link className="p-4" to="/egg">
-          Home
-        </Link>
         <Link className="p-4" to="/egg/projects">
           Projects
         </Link>
@@ -65,6 +62,10 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
         <Link className="p-4" to="/egg/contact">
           Contact
         </Link>
+        <span className="px-4 -mb-2 font-normal ">
+          {' '}
+          - helloleah23@gmail.com
+        </span>
       </div>
     </nav>
   );

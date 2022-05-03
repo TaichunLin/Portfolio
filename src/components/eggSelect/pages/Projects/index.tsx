@@ -5,7 +5,15 @@ import { Services } from './Services';
 export const ProjectsPage = () => {
   return (
     <>
-      <div className="bg-orange-400 ">
+      <div className="flex flex-col items-center justify-center h-screen">
+        <div className="flex flex-col items-center justify-center w-screen h-72">
+          <p className="font-extrabold md:tracking-widest text-gray-300/25 md:text-[200px] text-9xl mb-5">
+            Projects
+          </p>
+          <p className="font-extrabold md:tracking-widest text-gray-300/25 md:text-[200px] text-9xl ">
+            ▼
+          </p>
+        </div>
         <Nav />
       </div>
       <ProjectsInfor />

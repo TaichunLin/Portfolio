@@ -9,7 +9,7 @@ interface Props {}
 export const ProjectsInfor: React.FC<Props> = () => {
   return (
     <div className="flex justify-center">
-      <div className="w-[1033px]">
+      <div className="w-[1033px] ">
         {SideProjects.map((project) => (
           <div
             className={

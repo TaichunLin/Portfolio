@@ -7,7 +7,7 @@ import { Home } from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
 import { About } from './pages/About';
 import { ProjectsPage } from './pages/Projects/index';
-import { Contact } from './pages/Contact';
+import { Contact } from './pages/Contact/index';
 import { Dropdown } from './components/Dropdown';
 
 const Egg = () => {
@@ -18,7 +18,7 @@ const Egg = () => {
   };
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 h-fit">
       <Navbar toggle={toggle} />
       <Dropdown toggle={toggle} isOpen={isOpen} />
       <div className="flex items-center justify-center ">
