@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import './index.css';
 import { Home } from './pages/Home';
 import { Route, Routes } from 'react-router-dom';
-import { About } from './pages/About';
+import { About } from './pages/About/index';
 import { ProjectsPage } from './pages/Projects/index';
 import { Contact } from './pages/Contact/index';
 import { Dropdown } from './components/Dropdown';
