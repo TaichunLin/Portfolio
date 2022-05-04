@@ -1,7 +1,7 @@
 import React from 'react';
 import tw from 'twin.macro';
 import { ButtonSoft } from '../../../button/ButtonSoft';
-import { SideProjects } from '../../model/Projects';
+import { SideProjects } from '../../model/SideProjects';
 import { Services } from './Services';
 
 interface Props {}

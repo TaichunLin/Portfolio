@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import styled, { css } from 'styled-components';
 import tw from 'twin.macro';
-import { SideProjects } from '../../model/Projects';
+import { SideProjects } from '../../model/SideProjects';
 
 interface Props {}
 

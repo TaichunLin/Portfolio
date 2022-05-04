@@ -1,11 +1,23 @@
 import React, { useEffect, useState } from 'react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import { Link } from 'react-router-dom';
 
 interface Props {
   toggle: () => void;
 }
-
+const socialInfos = [
+  {
+    name: 'Github',
+    icon: FaGithub,
+    href: 'https://github.com/TaichunLin',
+  },
+  {
+    name: 'Linkedin',
+    icon: FaLinkedin,
+    href: 'http://www.linkedin.com/in/helloleah23',
+  },
+];
 const Navbar: React.FC<Props> = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState<boolean>(false);
 
@@ -29,13 +41,28 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
         (scrollNav ? 'bg-transparent' : 'bg-gray-100')
       }
     >
-      <Link
-        to="/egg"
-        className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300"
-      >
-        Leah
-        <img src="" alt="" />
-      </Link>
+      <div className="flex items-center space-x-2 ">
+        <Link
+          to="/egg"
+          className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300"
+        >
+          Leah
+          <img src="" alt="" />
+        </Link>
+        {socialInfos.map((socialInfo) => (
+          <div key={socialInfo.name} className="">
+            <a
+              className="text-3xl"
+              href={socialInfo.href}
+              target="_blank"
+              aria-label={socialInfo.name}
+            >
+              <socialInfo.icon />
+            </a>
+          </div>
+        ))}
+      </div>
+
       <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
         <svg
           xmlns="http://www.w3.org/2000/svg"

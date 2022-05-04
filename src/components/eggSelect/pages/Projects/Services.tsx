@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideProjects } from '../../model/Projects';
+import { SideProjects } from '../../model/SideProjects';
 
 interface Props {}
 

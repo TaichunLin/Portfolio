@@ -86,7 +86,7 @@ export const Mailer: React.FC<Props> = () => {
           </div>
           <span className="block text-sm font-medium text-center text-gray-300 ">
             {' '}
-            Drag the textarea handle to see the expected behaviour{' '}
+            Drag the textarea handle to fit the whole{' '}
           </span>
           <input
             type="submit"
