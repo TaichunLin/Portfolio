@@ -1,18 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Pic from '../images/aboutMe2.jpeg';
 
 export const Hero = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen text-gray-100">
-        <div className="lg:w-[1033px] md:w-[692px] w-screen px-6">
+      <div className="absolute top-0 w-full h-screen bg-red-500 bg-center bg-cover opacity-25">
+        <img
+          src={Pic}
+          alt="Leah"
+          className="object-cover object-top w-full h-screen"
+        />
+      </div>
+
+      <div className="flex flex-col items-center justify-center h-screen text-gray-100 ">
+        <div className="lg:w-[1033px] md:w-[692px] w-screen px-6 z-10">
           <h1 className="mb-2 text-3xl font-black text-gray-700 lg:text-9xl md:text-7xl sm:text-5xl ">
             Taichun Lin
           </h1>
           <p className="mb-10 text-gray-700 lg:text-5xl md:text-3xl sm:text-2xl">
             Frontend Developer
           </p>
-          <p className="w-2/3 text-gray-300 lg:w-1/2 lg:text-xl md:text-xl sm:text-lg mb-14">
+          <p className="w-2/3 text-gray-100 lg:w-1/2 lg:text-xl md:text-xl sm:text-lg mb-14">
             A versatile fast learner who is receptive to the new concepts and
             enjoy dabbling in the unexplored spaces between the technology and
             other fileds.

@@ -7,7 +7,7 @@ export const Content = () => {
     <div className="flex flex-col font-mono lg:flex-row">
       <div className="lg:w-1/2" />
       <div className="menu-card ">
-        <div className="box-card">
+        <div className="box-card bg-slate-50">
           <div className="center-content">
             <div className="absolute top-0 left-0 text-gray-300 text-9xl">
               “
@@ -21,7 +21,7 @@ export const Content = () => {
             </div>
           </div>
         </div>
-        <div className="box-card">
+        <div className="box-card bg-slate-100">
           <div className="center-content">
             <div className="absolute top-0 left-0 text-gray-300 text-9xl">
               “
@@ -36,7 +36,7 @@ export const Content = () => {
             </div>
           </div>
         </div>
-        <div className="box-card">
+        <div className="box-card bg-slate-200">
           <div className="center-content">
             <div className="absolute top-0 left-0 text-gray-300 text-9xl">
               “
@@ -49,7 +49,7 @@ export const Content = () => {
             </div>
           </div>
         </div>
-        <div className="box-card">
+        <div className="box-card bg-slate-200">
           <div className="center-content">
             <div className="absolute top-0 left-0 text-gray-300 text-9xl">
               “
@@ -64,12 +64,12 @@ export const Content = () => {
             </div>
           </div>
         </div>
-        <div className="box-card">
+        <div className="box-card bg-slate-50">
           <div className="center-content">
             <div className="absolute top-0 left-0 text-gray-300 text-9xl">
               “
             </div>
-            <h2 className="mb-2 text-2xl">Programming Language:</h2>
+            <h2 className="mb-2 text-2xl">Hobbis:</h2>
             <p className="mb-2">
               HTML5/CSS3, Javascript(ES6), Golang, TypeScript, PHP
             </p>

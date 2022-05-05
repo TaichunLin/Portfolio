@@ -7,23 +7,22 @@ export const Experience = [
   },
   {
     id: '2',
-    headline: 'Abassadar',
+    headline: 'College Ambassador',
     descr:
-      'in my perspective, if a person knows exactly what he/she is doing then that’s enough, no matter what he is doing right now, that will definitely become a seed in his life.' +
-      ' I’m a creative person and I like to learn new things. In college, I joint an Entrepreneur contest and my friends and I designed an assistive device to help people with visual impairment.',
+      'I like to explore and go on an adventure. In college, I was a College Ambassador who used to participate in a range of training sessions on Student Ambassadors regulations, international etiquette, reception of guests and international scholars, campus tours, and more, which helped me develop exceptional interpersonal and communication skills. Futhermore, learning and working with a group of talented people really enhance the quality of being expressive and proactive.',
   },
   {
     id: '3',
-    headline: 'Zion',
+    headline: 'Zion National Park',
     descr:
-      'challengable, flexible → likes to explore and go on an adventure → I’ve been keeping staying out of my comfort zone',
+      'Life is just like a playground for me. We can play several roles at the same time to increase our productivity. I can thrive by staying out of my comfort zone and facing uncertainty and smacking it in the face and then pressing on. Therefore, I enrolled in a J-1 program to work in Zion National Park in the US on my own. We need to exhibit a strong work ethic and collaborate with several supervisors to find the best position for you within our operations. Working as a café attendant for 3 months really helped me to respond promptly and professionally to any customer feedback, comments, or complaints.',
   },
   {
     id: '4',
 
-    headline: 'Photograpy',
+    headline: 'Freelancer',
     descr:
-      'I am receptive to the new concepts of anything and if that is about the knowledge I’d like to apply them freely, eloquently, and insightfully',
+      'Before I started my full stack developer internship, I have been working as a TOEIC tutor for almost 2 years, as a swimming coach and a photographer for 1+ year, most of those years as a freelancer. ',
   },
   {
     id: '5',
@@ -36,57 +35,57 @@ export const Experience = [
     alt: 'Imitate Furniture Website video.',
   },
 ];
-export const PartOfMe = [
-  {
-    id: '1',
-    name: 'Exchage',
-    topLine: 'Go/jQuery/Redis/Postman',
-    headline: 'Door accecc system',
-    descr: 'member management for co-working space',
-    link: 'path or url',
-    alt: 'Door accecc system imgage.',
-  },
-  {
-    id: '2',
-    name: 'Bootcamp',
-    topLine: 'React/',
-    headline: "Leah's Portfolio",
-    descr:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, atis atque delectus! Doloremque quo nam laudantium tempore incidunt?',
-    link: 'path or url',
-    alt: 'Portfolio imgage.',
-  },
-  {
-    id: '3',
-    name: 'Intern',
-    topLine: 'Go/jQuery/Redis/Postman',
-    headline: 'Template for practicing',
-    descr:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitiais atque delectus! Doloremque quo nam laudantium tempore incidunt?',
-    link: 'path or url',
-    alt: 'Template for practicing imgage.',
-  },
-  {
-    id: '4',
-    name: 'Lingoda',
-    topLine: 'HTMl/javaScript/CSS/Bootstrap',
-    headline: 'Redesign McDonald',
-    descr:
-      'orem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit Lsequi',
-    link: 'path or url',
-    alt: 'Redesign McDonald video.',
-  },
-  {
-    id: '5',
-    name: 'Future',
-    topLine: 'HTMl/javaScript/CSS/Bootstrap',
-    headline: 'Imitate Furniture Website',
-    descr:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit sequi',
-    link: 'path or url',
-    alt: 'Imitate Furniture Website video.',
-  },
-];
+// export const PartOfMe = [
+//   {
+//     id: '1',
+//     name: 'Exchage',
+//     topLine: 'Go/jQuery/Redis/Postman',
+//     headline: 'Door accecc system',
+//     descr: 'member management for co-working space',
+//     link: 'path or url',
+//     alt: 'Door accecc system imgage.',
+//   },
+//   {
+//     id: '2',
+//     name: 'Bootcamp',
+//     topLine: 'React/',
+//     headline: "Leah's Portfolio",
+//     descr:
+//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, atis atque delectus! Doloremque quo nam laudantium tempore incidunt?',
+//     link: 'path or url',
+//     alt: 'Portfolio imgage.',
+//   },
+//   {
+//     id: '3',
+//     name: 'Intern',
+//     topLine: 'Go/jQuery/Redis/Postman',
+//     headline: 'Template for practicing',
+//     descr:
+//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitiais atque delectus! Doloremque quo nam laudantium tempore incidunt?',
+//     link: 'path or url',
+//     alt: 'Template for practicing imgage.',
+//   },
+//   {
+//     id: '4',
+//     name: 'Lingoda',
+//     topLine: 'HTMl/javaScript/CSS/Bootstrap',
+//     headline: 'Redesign McDonald',
+//     descr:
+//       'orem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit Lsequi',
+//     link: 'path or url',
+//     alt: 'Redesign McDonald video.',
+//   },
+//   {
+//     id: '5',
+//     name: 'Future',
+//     topLine: 'HTMl/javaScript/CSS/Bootstrap',
+//     headline: 'Imitate Furniture Website',
+//     descr:
+//       'Before I started my full stack developer internship, I have been working as a TOEIC tutor for almost 2 years, as a swimming coach and a photographer for 1+ year, most of those years as a freelance. ',
+//     link: 'path or url',
+//     alt: 'Imitate Furniture Website video.',
+//   },
+// ];
 export const AfterCollege = [
   {
     id: 'Exchage',
@@ -110,7 +109,7 @@ export const AfterCollege = [
   {
     id: 'Future',
     descr:
-      'Last but not least, I enjoy dabbling in the unexplored spaces between the arts and technology, intrigued by the relationship between UI and UX, and I desire to develop more websites or applications that can solve actual problems that bother people or help the new technology industry to thrive.',
+      'Last but not least, I enjoy dabbling in the unexplored spaces between the arts and technology, intrigued by the relationship between UI and UX, and I desire to develop more websites or applications that can solve actual problems that bother people or help the new technology industry to thrive.I try to keep abreast of any developments.',
   },
 ];
 
