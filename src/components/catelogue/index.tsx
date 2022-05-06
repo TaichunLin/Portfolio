@@ -37,13 +37,15 @@ export const Catelogue: React.FC<Props> = () => {
           }
         >
           {NavLinks.map((NavLink) => (
-            <div key={NavLink.name} className="flex">
-              <Link
-                to={NavLink.path}
-                className="p-5 mx-1 my-8 font-bold capitalize duration-200 ease-in-out bg-green-200 cursor-pointer hover:border-b-4 border-primary-50 active:transition active:bg-white"
-              >
-                {NavLink.name}
-              </Link>
+            <div key={NavLink.name} className="flex ">
+              <div className="h-20 my-2 ">
+                <Link
+                  to={NavLink.path}
+                  className="p-2 m-8 mx-1 text-2xl font-black text-gray-300 capitalize duration-200 ease-in-out border-gray-300 cursor-pointer hover:border-b-4 "
+                >
+                  {NavLink.name}
+                </Link>
+              </div>
             </div>
           ))}
         </nav>
