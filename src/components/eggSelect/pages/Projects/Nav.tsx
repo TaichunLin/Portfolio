@@ -26,7 +26,7 @@ const NavItem = styled.li`
 
 export const Nav: React.FC<Props> = () => {
   return (
-    <div className="lg:fixed lg:right-60 lg:top-1/3">
+    <div className=" lg:fixed lg:right-0 2xl:right-60 lg:top-1/3">
       <ul className="flex flex-col items-center justify-center mt-2 text-center ">
         {SideProjects.map((project) => (
           <NavItem>

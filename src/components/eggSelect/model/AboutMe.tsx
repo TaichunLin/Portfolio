@@ -16,6 +16,12 @@ export const Experience = [
     headline: 'Zion National Park',
     descr:
       'Life is just like a playground for me. We can play several roles at the same time to increase our productivity. I can thrive by staying out of my comfort zone and facing uncertainty and smacking it in the face and then pressing on. Therefore, I enrolled in a J-1 program to work in Zion National Park in the US on my own. We need to exhibit a strong work ethic and collaborate with several supervisors to find the best position for you within our operations. Working as a café attendant for 3 months really helped me to respond promptly and professionally to any customer feedback, comments, or complaints.',
+    img: require('../images/aboutMe.jpg').default,
+    alt: 'This brochure contains everything you need to know about my experience in Zion National Park',
+    extra:
+      '✨ This brochure contains everything you need to know about my experience in ',
+    click: 'Zion National Park',
+    url: 'https://drive.google.com/file/d/1ssC-bUSgeNC47hVka27o4thowf2kXKBy/view?usp=sharing',
   },
   {
     id: '4',
@@ -23,93 +29,39 @@ export const Experience = [
     headline: 'Freelancer',
     descr:
       'Before I started my full stack developer internship, I have been working as a TOEIC tutor for almost 2 years, as a swimming coach and a photographer for 1+ year, most of those years as a freelancer. ',
-  },
-  {
-    id: '5',
-    name: 'Imitate Furniture Website',
-    topLine: 'HTMl/javaScript/CSS/Bootstrap',
-    headline: 'Imitate Furniture Website',
-    descr:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit sequi',
-    link: 'path or url',
-    alt: 'Imitate Furniture Website video.',
+    extra: '✨ business collaboration with ',
+    click: 'LanfangLin Illustration',
+    url: 'https://www.pinkoi.com/store/lanfanglinillustration',
   },
 ];
-// export const PartOfMe = [
-//   {
-//     id: '1',
-//     name: 'Exchage',
-//     topLine: 'Go/jQuery/Redis/Postman',
-//     headline: 'Door accecc system',
-//     descr: 'member management for co-working space',
-//     link: 'path or url',
-//     alt: 'Door accecc system imgage.',
-//   },
-//   {
-//     id: '2',
-//     name: 'Bootcamp',
-//     topLine: 'React/',
-//     headline: "Leah's Portfolio",
-//     descr:
-//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, atis atque delectus! Doloremque quo nam laudantium tempore incidunt?',
-//     link: 'path or url',
-//     alt: 'Portfolio imgage.',
-//   },
-//   {
-//     id: '3',
-//     name: 'Intern',
-//     topLine: 'Go/jQuery/Redis/Postman',
-//     headline: 'Template for practicing',
-//     descr:
-//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitiais atque delectus! Doloremque quo nam laudantium tempore incidunt?',
-//     link: 'path or url',
-//     alt: 'Template for practicing imgage.',
-//   },
-//   {
-//     id: '4',
-//     name: 'Lingoda',
-//     topLine: 'HTMl/javaScript/CSS/Bootstrap',
-//     headline: 'Redesign McDonald',
-//     descr:
-//       'orem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit Lsequi',
-//     link: 'path or url',
-//     alt: 'Redesign McDonald video.',
-//   },
-//   {
-//     id: '5',
-//     name: 'Future',
-//     topLine: 'HTMl/javaScript/CSS/Bootstrap',
-//     headline: 'Imitate Furniture Website',
-//     descr:
-//       'Before I started my full stack developer internship, I have been working as a TOEIC tutor for almost 2 years, as a swimming coach and a photographer for 1+ year, most of those years as a freelance. ',
-//     link: 'path or url',
-//     alt: 'Imitate Furniture Website video.',
-//   },
-// ];
+
 export const AfterCollege = [
   {
-    id: 'Exchage',
+    id: 'Brief',
     descr:
-      'First,Exchage我希望日新月異的科技如洪水般湧來，你是能理解吸收、跟上趨勢，在自身的工作與生活中善用，或是看不懂、想不通，平白讓公司獲利與個人發展的好機會溜走？疫情期間，大家有好多的時間可以在家與自己相處，我希望可以利用那些時間增進自己，或許就能漸漸與他人拉出差距',
+      'In this fast-moving world, in order to ensure that I can meet with the dynamic and ever-changing business environment, I am eager to understand and absorb, keep up with the trend, and make good use of it in my work and life. Therefore, I take advantage of the epidemic time to develop my technology skills. It can be daunting to acquire cross-discipline learning, so I decided to enroll in a Bootcamp to start my coding journey. Afterall, the only way to learn how to swim is by getting into the water.',
   },
   {
     id: 'Bootcamp',
-    descr: 'Therefore,Bootcamp',
+    descr:
+      'Learning software engineering from scratch is difficult, but with a Bootcamp, even industry newcomers can quickly build a strong knowledge base and prepare themselves. Through 3 months of intensive training, I gained front end fundamentals like HTML, CSS, JavaScript, and PHP as well as web development frameworks including Bootstrap, jQuery, and technologies such as VScode and DW along with design tools, like Photoshop and XD. However, this bootcamp I joined tended to focus on web-based overall knowledge and coding rather than software engineering so I hit the ground running to seeking for a real-world job experience.',
   },
   {
     id: 'Intern',
-    descr: 'Moreover,Intern',
+    descr:
+      'When it comes to my full stack developer internship, I knew back-end (server-side) and front-end (client-side) programming skills are a must then, so I seized this internship opportunity to learn these unfamiliar fields, backend and crypto, beyond my comfort zones, backend and crypto.Being a full-stack intern helps me to know more about RESTful API, SSR, CSR, etc and see the big picture. From where I stand, web developers should not only be limited to developing web pages but should also be more exposed to other new technologies, such as AI, blockchain and so on so that we will be able to more widely use our expertise in various fields.',
   },
   {
     id: 'Lingoda',
     descr:
-      'In addition, in my humble opinion, the importance of your communications skills is no less than your coding skills. Especially if you want to work with a group of developers and that makes communication a key factor for delivering the product in time and increasing productivity. Thus, I enrolled on the Lingoda Super Sprint which means I have to take 60 group classes every day in 2 months to use high intensity to enhance my Business English and get great result.',
-    extra: 'Here is some teachers’ feedback on me. (click or hover here)',
+      'In addition, in my humble opinion, the importance of your communications skills is no less than your coding skills. Especially if you want to work with a group of developers and that makes communication a key factor for delivering the product in time and increasing productivity. Thus, I enrolled on the Lingoda Super Sprint which means I have to take 60 group classes every day in 2 months to use high intensity to enhance my Business English and get great result. (Lingoda is a professional and authoritative platform to learn foreign languages)',
+
+    extra: '✨ Here is some teachers’ feedback on my performance in class.',
   },
   {
     id: 'Future',
     descr:
-      'Last but not least, I enjoy dabbling in the unexplored spaces between the arts and technology, intrigued by the relationship between UI and UX, and I desire to develop more websites or applications that can solve actual problems that bother people or help the new technology industry to thrive.I try to keep abreast of any developments.',
+      'Last but not least, I enjoy dabbling in the unexplored spaces between the arts and technology, intrigued by the relationship between UI and UX, and I desire to design and develop more websites or applications that can solve actual problems that bother people or help the new technology industry to thrive. Even though I might be not experienced as a senior developer, I will keep abreast of any developments.',
   },
 ];
 

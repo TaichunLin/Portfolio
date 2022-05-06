@@ -14,8 +14,18 @@ export const Pic: React.FC<Props> = () => {
           </span>
           <hr />
         </div>
-
-        <div className="w-2/3 mb-10 text-sm transition duration-200 ease-in-out ">
+        <p className="text-gray-100 underline transition-all duration-300 ease-in-out text-md underline-offset-1">
+          ✨ business collaboration with {''}
+          <a
+            className="bg-gray-700 cursor-pointer"
+            href="https://www.pinkoi.com/store/lanfanglinillustration"
+            target="_blank"
+            aria-label="business collaboration with LanfangLin Illustration"
+          >
+            LanfangLin Illustration
+          </a>
+        </p>
+        {/* <div className="w-2/3 mb-10 text-sm transition duration-200 ease-in-out ">
           <div className="flex flex-col overflow-scroll bg-gray-300 rounded-lg h-96 scroll-smooth snap-y snap-mandatory">
             {Lingoda.map((feedback) => (
               <div
@@ -26,7 +36,7 @@ export const Pic: React.FC<Props> = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

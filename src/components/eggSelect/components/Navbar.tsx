@@ -37,7 +37,7 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
     <nav
       role="navigation"
       className={
-        'sticky top-0 flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 shadow-sm ' +
+        'z-50 sticky top-0 flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 shadow-sm ' +
         (scrollNav ? 'bg-transparent' : 'bg-gray-100')
       }
     >
@@ -80,11 +80,11 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
         </svg>
       </div>
       <div className="hidden pr-8 md:block">
-        <Link className="p-4" to="/egg/projects">
-          Projects
-        </Link>
         <Link className="p-4" to="/egg/about">
           About
+        </Link>
+        <Link className="p-4" to="/egg/projects">
+          Projects
         </Link>
         <Link className="p-4" to="/egg/contact">
           Contact

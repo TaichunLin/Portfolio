@@ -69,7 +69,7 @@ export const Content = () => {
             <div className="absolute top-0 left-0 text-gray-300 text-9xl">
               “
             </div>
-            <h2 className="mb-2 text-2xl">Hobbis:</h2>
+            <h2 className="mb-2 text-2xl">Hobbies & Interests:</h2>
             <p className="mb-2">
               HTML5/CSS3, Javascript(ES6), Golang, TypeScript, PHP
             </p>

@@ -13,7 +13,6 @@ export const About = () => {
           My diverse experience enables me to gain actionable insights by
           comparing trends and identifying technology potential across different
           sectors, in turn providing myself with tools and knowledge for growth.
-          -Lingoda -Hobbis/Photography -Zion
         </p>
       </div>
       <First />

@@ -22,7 +22,7 @@ export const Second: React.FC<Props> = () => {
         <div className="md:max-w-[400px] row-span-3 p-5 my-5 font-extrabold text-7xl md:ml-20 md:text-right  text-gray-300">
           Before I started coding and after
         </div>
-        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 bg-slate-400">
+        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 ">
           <p className="font-extrabold text-gray-300">
             Before I staretd coding
           </p>
@@ -36,9 +36,26 @@ export const Second: React.FC<Props> = () => {
                 {experience.headline}
               </p>
               <p className="p-2">{experience.descr}</p>
+              <p
+                className={
+                  experience.extra
+                    ? 'self-start  text-gray-700 underline text-md underline-offset-1 '
+                    : 'hidden'
+                }
+              >
+                {experience.extra}
+                <a
+                  className="px-2 text-gray-700 bg-gray-300 rounded-full cursor-pointer"
+                  href={experience.url}
+                  target="_blank"
+                  aria-label="business collaboration with LanfangLin Illustration"
+                >
+                  {experience.click}
+                </a>
+              </p>
             </div>
           ))}
-          <Pic />
+          {/* <Pic /> */}
         </div>
         <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit">
           <p className="font-extrabold text-gray-300">Coding journey</p>
@@ -47,7 +64,7 @@ export const Second: React.FC<Props> = () => {
             <div key={detail.id} className="flex flex-col m-5 p-7">
               <p className="p-2">{detail.descr}</p>
               <p
-                className="underline transition-all duration-300 ease-in-out cursor-pointer text-md underline-offset-1 "
+                className="text-gray-700 underline transition-all duration-300 ease-in-out cursor-pointer text-md underline-offset-1 "
                 onClick={openModal}
               >
                 {detail.extra}
