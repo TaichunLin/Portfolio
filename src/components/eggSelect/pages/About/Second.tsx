@@ -18,11 +18,11 @@ export const Second: React.FC<Props> = () => {
 
   return (
     <div>
-      <div className="grid grid-rows-3 gap-4 m-20 divide-x md:grid-flow-col max-w-screen divide-slate-700">
-        <div className="md:max-w-[400px] row-span-3 p-5 my-5 font-extrabold text-7xl md:ml-20 md:text-right  text-gray-300">
+      <div className="grid grid-rows-2 gap-4 m-20 divide-x xl:grid-flow-col max-w-screen divide-slate-700 h-fit">
+        <div className="2xl:max-w-[400px] xl:max-w-[200px] row-span-2 p-5 my-5 font-extrabold text-7xl xl:mx-10 2xl:ml-20 xl:text-right  text-gray-300">
           Before I started coding and after
         </div>
-        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 ">
+        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit">
           <p className="font-extrabold text-gray-300">
             Before I staretd coding
           </p>
@@ -57,7 +57,7 @@ export const Second: React.FC<Props> = () => {
           ))}
           {/* <Pic /> */}
         </div>
-        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit">
+        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit lg:-mt-32">
           <p className="font-extrabold text-gray-300">Coding journey</p>
           <hr className="mb-4" />
           {AfterCollege.map((detail) => (

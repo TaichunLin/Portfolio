@@ -9,7 +9,7 @@ export const First: React.FC<Props> = () => {
         {' '}
         part of me
       </div>
-      <div className="flex flex-col items-center w-screen divide-gray-300 md:divide-x-2 md:flex-row md:h-screen indent-8">
+      <div className="flex flex-col items-center w-screen divide-gray-300 md:divide-x-2 md:flex-row md:h-screen indent-8 ">
         <div className="w-full md:w-1/2 ">
           <div className="p-10">
             <div className=" md:ml-10 lg:p-20">
