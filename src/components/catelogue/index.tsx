@@ -1,5 +1,5 @@
 import React from 'react';
-import Egg from '../eggSelect';
+import Leah from '../Leah';
 import Counter from '../mainWeb/containers/CenterSection/Counter';
 import { Home } from '../mainWeb/pages/Menupages/Home';
 import { Link } from 'react-router-dom';
@@ -13,10 +13,10 @@ const NavLinks = [
     element: Home,
   },
   {
-    name: 'egg',
-    path: '/egg',
-    subRoute: 'egg',
-    element: Egg,
+    name: 'leah',
+    path: '/leah',
+    subRoute: 'leah',
+    element: Leah,
   },
   {
     name: 'counter',

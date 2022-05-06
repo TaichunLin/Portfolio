@@ -10,7 +10,7 @@ import { ProjectsPage } from './pages/Projects/index';
 import { Contact } from './pages/Contact/index';
 import { Dropdown } from './components/Dropdown';
 
-const Egg = () => {
+const Leah = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const toggle: () => void = () => {
@@ -38,4 +38,4 @@ const Egg = () => {
   );
 };
 
-export default Egg;
+export default Leah;

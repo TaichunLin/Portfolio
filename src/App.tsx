@@ -1,5 +1,5 @@
 import React from 'react';
-import Egg from './components/eggSelect';
+import Leah from './components/Leah';
 import { MainWeb } from './components/mainWeb';
 import { Route, Routes, Link } from 'react-router-dom';
 import Counter from './components/mainWeb/containers/CenterSection/Counter';
@@ -15,7 +15,7 @@ function App() {
         <Route path="/catelogue" element={<Catelogue />} />
         <Route path="/portfolio/" element={<Catelogue />} />
         <Route path="/counter" element={<Counter buttonText="Click Me!" />} />
-        <Route path="/egg/*" element={<Egg />} />
+        <Route path="/leah/*" element={<Leah />} />
       </Routes>
     </>
   );
