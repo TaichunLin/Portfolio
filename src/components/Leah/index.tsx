@@ -8,19 +8,12 @@ import { Route, Routes } from 'react-router-dom';
 import { About } from './pages/About/index';
 import { ProjectsPage } from './pages/Projects/index';
 import { Contact } from './pages/Contact/index';
-import { Dropdown } from './components/Dropdown';
 
 const Leah = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-
-  const toggle: () => void = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <div className="bg-gray-100 h-fit">
-      <Navbar toggle={toggle} />
-      <Dropdown toggle={toggle} isOpen={isOpen} />
+      <Navbar />
+
       <div className="flex items-center justify-center ">
         <hr className="w-1/2" />
       </div>

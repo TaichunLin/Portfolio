@@ -2,10 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import { Link } from 'react-router-dom';
+import { Dropdown } from './Dropdown';
 
-interface Props {
-  toggle: () => void;
-}
+interface Props {}
 const socialInfos = [
   {
     name: 'Github',
@@ -18,7 +17,7 @@ const socialInfos = [
     href: 'http://www.linkedin.com/in/helloleah23',
   },
 ];
-const Navbar: React.FC<Props> = ({ toggle }) => {
+const Navbar: React.FC<Props> = () => {
   const [scrollNav, setScrollNav] = useState<boolean>(false);
 
   const changeNav = () => {
@@ -33,67 +32,75 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
     window.addEventListener('scroll', changeNav);
   }, []);
 
-  return (
-    <nav
-      role="navigation"
-      className={
-        'z-50 sticky top-0 flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 shadow-sm ' +
-        (scrollNav ? 'bg-transparent' : 'bg-gray-100')
-      }
-    >
-      <div className="flex items-center space-x-2 ">
-        <Link
-          to="/leah"
-          className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300"
-        >
-          Leah
-        </Link>
-        {socialInfos.map((socialInfo) => (
-          <div key={socialInfo.name} className="">
-            <a
-              className="text-3xl"
-              href={socialInfo.href}
-              target="_blank"
-              aria-label={socialInfo.name}
-            >
-              <socialInfo.icon />
-            </a>
-          </div>
-        ))}
-      </div>
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
-      <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="w-6 h-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          strokeWidth={2}
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M4 6h16M4 12h16M4 18h16"
-          />
-        </svg>
-      </div>
-      <div className="hidden pr-8 md:block">
-        <Link className="p-4" to="/leah/about">
-          About
-        </Link>
-        <Link className="p-4" to="/leah/projects">
-          Projects
-        </Link>
-        <Link className="p-4" to="/leah/contact">
-          Contact
-        </Link>
-        <span className="px-4 -mb-2 font-normal ">
-          {' '}
-          - helloleah23@gmail.com
-        </span>
-      </div>
-    </nav>
+  const toggleDropdown: () => void = () => {
+    setIsOpen(!isOpen);
+  };
+  return (
+    <div className="sticky top-0 z-50">
+      <nav
+        role="navigation"
+        className={
+          'flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 shadow-sm ' +
+          (scrollNav ? 'bg-transparent' : 'bg-gray-100')
+        }
+      >
+        <div className="flex items-center space-x-2 ">
+          <Link
+            to="/leah"
+            className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300"
+          >
+            Leah
+          </Link>
+          {socialInfos.map((socialInfo) => (
+            <div key={socialInfo.name} className="">
+              <a
+                className="text-3xl"
+                href={socialInfo.href}
+                target="_blank"
+                aria-label={socialInfo.name}
+              >
+                <socialInfo.icon />
+              </a>
+            </div>
+          ))}
+        </div>
+
+        <div className="px-4 cursor-pointer md:hidden" onClick={toggleDropdown}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-6 h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </div>
+        <div className="hidden pr-8 md:block">
+          <Link className="p-4" to="/leah/about">
+            About
+          </Link>
+          <Link className="p-4" to="/leah/projects">
+            Projects
+          </Link>
+          <Link className="p-4" to="/leah/contact">
+            Contact
+          </Link>
+          <span className="px-4 -mb-2 font-normal ">
+            {' '}
+            - helloleah23@gmail.com
+          </span>
+        </div>
+      </nav>
+      <Dropdown toggle={toggleDropdown} isOpen={isOpen} />
+    </div>
   );
 };
 
