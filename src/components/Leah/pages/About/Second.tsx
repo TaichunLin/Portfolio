@@ -57,7 +57,7 @@ export const Second: React.FC<Props> = () => {
           ))}
           {/* <Pic /> */}
         </div>
-        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit lg:-mt-32">
+        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit lg:-mt-30">
           <p className="font-extrabold text-gray-300">Coding journey</p>
           <hr className="mb-4" />
           {AfterCollege.map((detail) => (

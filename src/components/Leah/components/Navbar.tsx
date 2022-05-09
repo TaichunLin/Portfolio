@@ -43,11 +43,10 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
     >
       <div className="flex items-center space-x-2 ">
         <Link
-          to="/egg"
+          to="/leah"
           className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300"
         >
           Leah
-          <img src="" alt="" />
         </Link>
         {socialInfos.map((socialInfo) => (
           <div key={socialInfo.name} className="">

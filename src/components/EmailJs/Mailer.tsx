@@ -52,6 +52,7 @@ export const Mailer: React.FC<Props> = () => {
               className="contact-input peer "
               placeholder="ex:Lean from XX company"
               onChange={(e) => setName(e.target.value)}
+              required
             />
             <label htmlFor="name" className="contact-label">
               What's your name?
@@ -66,6 +67,7 @@ export const Mailer: React.FC<Props> = () => {
               className="contact-input peer "
               placeholder="john@doe.com"
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
             <label htmlFor="email" className="contact-label">
               Your mail address
@@ -79,6 +81,7 @@ export const Mailer: React.FC<Props> = () => {
               rows={4}
               className=" contact-textarea peer"
               placeholder="john@doe.com"
+              required
             />
             <label htmlFor="message" className="contact-label-textarea">
               Leave a message to Leah
