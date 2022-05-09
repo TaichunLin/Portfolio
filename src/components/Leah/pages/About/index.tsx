@@ -12,7 +12,7 @@ export const About = () => {
         <p className="2xl:pr-20">
           My diverse experience enables me to gain actionable insights by
           comparing trends and identifying technology potential across different
-          sectors, in turn providing myself with tools and knowledge for growth.
+          sectors, in turn providing me with tools and knowledge for growth.
         </p>
       </div>
       <First />

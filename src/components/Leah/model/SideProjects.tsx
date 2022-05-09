@@ -23,7 +23,7 @@ export const SideProjects = [
     headline: "Leah's Portfolio",
     descr:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, atis atque delectus! Doloremque quo nam laudantium tempore incidunt?',
-    link: require('../images/aboutMe.jpg'),
+    link: require('../images/portfolio.png'),
     alt: 'Portfolio imgage.',
     imgStart: true,
     border: true,

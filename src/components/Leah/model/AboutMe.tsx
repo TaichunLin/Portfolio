@@ -3,19 +3,19 @@ export const Experience = [
     id: '1',
     headline: 'Brief',
     descr:
-      'I graduated in Applied Linguistics and Language Studies from Chung Yuan Christian University. During my college years, in spite of taking courses from my department, I also enrolled on some corses from among the department of commercial design and the department of International Trade. Besides, in my spare time, I used to take part in various extracurricular activities. All of these caused my life to diversify ',
+      'I graduated in Applied Linguistics and Language Studies from Chung Yuan Christian University. During my college years, despite taking courses from my department, I also enrolled in some courses in the department of commercial design and the department of International Trade. Besides, in my spare time, I used to take part in various extracurricular activities. All of these caused my life to diversify.',
   },
   {
     id: '2',
     headline: 'College Ambassador',
     descr:
-      'I like to explore and go on an adventure. In college, I was a College Ambassador who used to participate in a range of training sessions on Student Ambassadors regulations, international etiquette, reception of guests and international scholars, campus tours, and more, which helped me develop exceptional interpersonal and communication skills. Futhermore, learning and working with a group of talented people really enhance the quality of being expressive and proactive.',
+      'I like to explore and go on an adventure. In college, I was a College Ambassador who used to participate in a range of training sessions on Student Ambassador’s regulations, international etiquette, reception of guests and international scholars, campus tours, and more, which helped me develop exceptional interpersonal and communication skills. Furthermore, learning and working with a group of talented people enhance the quality of being expressive and proactive.',
   },
   {
     id: '3',
     headline: 'Zion National Park',
     descr:
-      'Life is just like a playground for me. We can play several roles at the same time to increase our productivity. I can thrive by staying out of my comfort zone and facing uncertainty and smacking it in the face and then pressing on. Therefore, I enrolled in a J-1 program to work in Zion National Park in the US on my own. We need to exhibit a strong work ethic and collaborate with several supervisors to find the best position for you within our operations. Working as a café attendant for 3 months really helped me to respond promptly and professionally to any customer feedback, comments, or complaints.',
+      'Life is a circle and just trust the process. Furthermore, don’t rush to the destination and enjoy your ride. We can play several roles at the same time to increase our productivity. I can thrive by staying out of my comfort zone and facing uncertainty and smacking it in the face and then pressing on. Therefore, I enrolled in a J-1 program to work in Zion National Park in the US on my own. We need to exhibit a strong work ethic and collaborate with several supervisors to find the best position for you within our operations. Working as a café attendant for 3 months helped me to respond promptly and professionally to any customer feedback, comments, or complaints.',
     img: require('../images/aboutMe.jpg').default,
     alt: 'This brochure contains everything you need to know about my experience in Zion National Park',
     extra:
@@ -28,7 +28,7 @@ export const Experience = [
 
     headline: 'Freelancer',
     descr:
-      'Before I started my full stack developer internship, I have been working as a TOEIC tutor for almost 2 years, as a swimming coach and a photographer for 1+ year, most of those years as a freelancer. ',
+      'Before I started my full stack developer internship, I have been working as a TOEIC tutor for almost 2 years, as a swimming coach, and as a photographer for 1+ years, most of those years as a freelancer.',
     extra: '✨ business collaboration with ',
     click: 'LanfangLin Illustration',
     url: 'https://www.pinkoi.com/store/lanfanglinillustration',
@@ -39,22 +39,22 @@ export const AfterCollege = [
   {
     id: 'Brief',
     descr:
-      'In this fast-moving world, in order to ensure that I can meet with the dynamic and ever-changing business environment, I am eager to understand and absorb, keep up with the trend, and make good use of it in my work and life. Therefore, I take advantage of the epidemic time to develop my technology skills. It can be daunting to acquire cross-discipline learning, so I decided to enroll in a Bootcamp to start my coding journey. Afterall, the only way to learn how to swim is by getting into the water.',
+      'In this fast-moving world, to ensure that I can meet with the dynamic and ever-changing business environment, I am eager to understand and absorb, keep up with the trend, and make good use of them in my work and life. Therefore, I take advantage of the epidemic time to develop my technology skills. It can be daunting to acquire cross-discipline learning, so I decided to enroll in a Bootcamp to start my coding journey. After all, the only way to learn how to swim is by getting into the water.',
   },
   {
     id: 'Bootcamp',
     descr:
-      'Learning software engineering from scratch is difficult, but with a Bootcamp, even industry newcomers can quickly build a strong knowledge base and prepare themselves. Through 3 months of intensive training, I gained front end fundamentals like HTML, CSS, JavaScript, and PHP as well as web development frameworks including Bootstrap, jQuery, and technologies such as VScode and DW along with design tools, like Photoshop and XD. However, this bootcamp I joined tended to focus on web-based overall knowledge and coding rather than software engineering so I hit the ground running to seeking for a real-world job experience.',
+      'Learning software engineering from scratch is difficult, but with a Bootcamp, even industry newcomers can quickly build a strong knowledge base and prepare themselves. Through 3 months of intensive training, I gained front-end fundamentals like HTML, CSS, JavaScript, and PHP as well as web development frameworks including Bootstrap, jQuery, and technologies such as VScode and DW along with design tools, like Photoshop and XD. However, this Bootcamp I joined tended to focus on web-based overall knowledge and coding rather than software engineering; After that, I hit the ground running and sought a real-world job experience which was the full stack developer internship.',
   },
   {
     id: 'Intern',
     descr:
-      'When it comes to my full stack developer internship, I knew back-end (server-side) and front-end (client-side) programming skills are a must then, so I seized this internship opportunity to learn these unfamiliar fields, backend and crypto, beyond my comfort zones, backend and crypto.Being a full-stack intern helps me to know more about RESTful API, SSR, CSR, etc and see the big picture. From where I stand, web developers should not only be limited to developing web pages but should also be more exposed to other new technologies, such as AI, blockchain and so on so that we will be able to more widely use our expertise in various fields.',
+      'When it comes to my full stack developer internship, I knew back-end (server-side) and front-end (client-side) programming skills are a must then, so I seized this internship opportunity to learn these unfamiliar fields, backend, and crypto, beyond my comfort zones, backend and crypto. Being a full-stack intern helps me to know more about RESTful API, SSR, CSR, etc, and see the big picture. From where I stand, web developers should not only be limited to developing web pages but should also be more exposed to other new technologies, such as AI, blockchain, and so on so that we will be able to more widely use our expertise in various fields.',
   },
   {
     id: 'Lingoda',
     descr:
-      'In addition, in my humble opinion, the importance of your communications skills is no less than your coding skills. Especially if you want to work with a group of developers and that makes communication a key factor for delivering the product in time and increasing productivity. Thus, I enrolled on the Lingoda Super Sprint which means I have to take 60 group classes every day in 2 months to use high intensity to enhance my Business English and get great result. (Lingoda is a professional and authoritative platform to learn foreign languages)',
+      'In addition, in my humble opinion, the importance of your communications skills is no less than your coding skills. Especially if you want to work with a group of developers and that makes communication a key factor for delivering the product in time and increasing productivity. Thus, I enrolled in the Lingoda Super Sprint which means I have to take 60 group classes every day for 2 months to use high intensity to enhance my Business English and get great results. (Lingoda is a professional and authoritative platform to learn foreign languages)',
 
     extra: '✨ Here is some teachers’ feedback on my performance in class.',
   },
@@ -97,13 +97,3 @@ export const Lingoda = [
     descr: 'Leah - you connected your ideas well and had nice delivery.',
   },
 ];
-
-// 專業？
-// Lingoda ->
-// Hobbis -> outdoor
-// Photography-> redays
-// Zion
-// 自學 -> cousera
-
-// 未來的目標？
-// 我希望能設計很多很多的網站出來，結合產業

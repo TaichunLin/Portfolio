@@ -48,7 +48,7 @@ export const Second: React.FC<Props> = () => {
                   className="px-2 text-gray-700 bg-gray-300 rounded-full cursor-pointer"
                   href={experience.url}
                   target="_blank"
-                  aria-label="business collaboration with LanfangLin Illustration"
+                  aria-label={experience.extra}
                 >
                   {experience.click}
                 </a>

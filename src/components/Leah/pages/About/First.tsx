@@ -21,10 +21,10 @@ export const First: React.FC<Props> = () => {
                 There are endless things to learn in the tech industry, and
                 there are also so many possibilities. I like to conceptualize
                 and implement creative ideas by myself and build the sight to
-                showcase them. Thus, I found I really like and enjoy spending my
-                time absorbing this knowledge and information on coding. Just
-                deem these challenges as my nutrients to grow and be brave no
-                matter what you encounter.
+                showcase them. Thus, I found I like and enjoy spending my time
+                absorbing this knowledge and information on coding. Just deem
+                these challenges as my nutrients to grow and be brave no matter
+                what you encounter.
               </p>
             </div>
           </div>
@@ -39,8 +39,8 @@ export const First: React.FC<Props> = () => {
               Experience and User Interface is engaging. Bringing people a
               better concept to life through designing can let us look forward
               to the new look of the future together. Moreover, being enrolled
-              in commercial design courses really broadened my horizons and
-              taught me to embrace diverse views on art.
+              in commercial design courses broadened my horizons and taught me
+              to embrace diverse views on art.
             </p>
           </div>
         </div>

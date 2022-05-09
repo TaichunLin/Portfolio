@@ -22,9 +22,9 @@ export const Hero = () => {
             Frontend Developer
           </p>
           <p className="w-2/3 text-gray-100 lg:w-1/2 lg:text-xl md:text-xl sm:text-lg mb-14">
-            A versatile fast learner who is receptive to the new concepts and
-            enjoy dabbling in the unexplored spaces between the technology and
-            other fileds.
+            A versatile fast learner who is receptive to new concepts and enjoys
+            dabbling in the unexplored spaces between technology and various
+            fields
           </p>
         </div>
         {/* <Link
