@@ -22,7 +22,10 @@ export const ProjectsInfor: React.FC<Props> = () => {
             id={project.id}
             key={project.name}
           >
-            <div className="flex items-center justify-center px-6 h-screen mx-auto max-w-[1033px] ">
+            <div
+              className="flex items-center justify-center px-6 2xl:h-screen h-full 2xl:py-1
+            py-10 mx-auto max-w-[1033px] "
+            >
               <div
                 className={
                   'w-full h-full flex flex-col items-center justify-center sm:flex-row  ' +

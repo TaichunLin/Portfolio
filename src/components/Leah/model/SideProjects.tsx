@@ -6,7 +6,7 @@ export const SideProjects = [
     topLine: 'Go/jQuery/Redis/Postman',
     headline: 'Door accecc system',
     descr:
-      'member management for co-working spaceDoloremque quo nam laudantium tempore incidunt?Doloremque quo nam laudantium tempore incidunt?Doloremque quo nam laudantium tempore incidunt?Doloremque quo nam laudantium tempore incidunt?',
+      'This Go application was built as a Door Access Control System and for administrators of co-working spaces to manage membership more handily. In addition, A RESTful API was developed for a dynamic website, a server-side rendered application, and pulling in content from Redis by implementing JWT authentication in Golang with GIN.',
     alt: 'Door accecc system imgage.',
     border: true,
     buttonLabel: 'Door accecc system on GitHub',
@@ -19,7 +19,7 @@ export const SideProjects = [
     topLine: 'React/TypeScript/Tailwind CSS/styled-components CSS',
     headline: "Leah's Portfolio",
     descr:
-      'Doloremque quo nam laudantium tempore incidunt?Doloremque quo nam laudantium tempore incidunt?Doloremque quo nam laudantium tempore incidunt?Doloremque quo nam laudantium tempore incidunt?',
+      ' I exploited the favorable monochrome strategy to create a React Application which was a minimalist web-design style. Furthermore, This informative static website showcased my coding journey.',
     link: require('../images/portfolio.png'),
     alt: 'Portfolio imgage.',
     border: true,
@@ -27,46 +27,29 @@ export const SideProjects = [
     button: true,
     buttonLink: 'https://github.com/TaichunLin/portfolio',
   },
-  // {
-  //   id: 'Template for practicing',
-  //   template: true,
-  //   name: 'Template for practicing',
-  //   topLine: 'React/TypeScript/Tailwind CSS/styled-components CSS',
-  //   headline: 'Template for practicing',
-  //   descr:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitiais atque delectus! Doloremque quo nam laudantium tempore incidunt?',
-  //   link: require('../images/aboutMe.jpg'),
-  //   alt: 'Template for practicing imgage.',
-  //   imgStart: false,
-  //   border: false,
-
-  //   buttonLabel: 'Template for practicingy on GitHub',
-  //   button: true,
-  // },
   {
-    id: 'Redesign McDonald',
-    name: 'Redesign McDonald',
+    id: 'Redesigned McDonald',
+    name: 'Redesigned McDonald',
     topLine: 'HTMl/javaScript/CSS/Sass',
     headline: 'Redesign McDonald',
     descr:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit sequi',
+      'This project was built to redesign the original McDonald’s website by putting some energy into work. Moreover, using monochrome design ideas to highlight McDonald’s features.',
     mcDonald: true,
-    alt: 'Redesign McDonald video.',
+    alt: 'Redesigned McDonald video.',
     imgStart: true,
     border: true,
-
     buttonLabel: 'on GitHub',
     button: false,
   },
   {
-    id: 'Imitate Furniture Website',
-    name: 'Imitate Furniture Website',
+    id: 'Imitated Furniture Website',
+    name: 'Imitated Furniture Website',
     topLine: 'HTMl/javaScript/CSS',
-    headline: 'Imitate Furniture Website',
+    headline: 'Imitated Furniture Website',
     descr:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit sequi',
+      'This project was built to imitate a furniture website by using HTML, CSS and JavaScript.',
     furniture: true,
-    alt: 'Imitate Furniture Website video.',
+    alt: 'Imitated Furniture Website video.',
     imgStart: true,
     border: true,
 
