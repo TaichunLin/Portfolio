@@ -2,6 +2,8 @@ import { Nav } from './Nav';
 import { ProjectsInfor } from './ProjectsInfor';
 import { Services } from './Services';
 
+import '../../index.css';
+
 export const ProjectsPage = () => {
   return (
     <>

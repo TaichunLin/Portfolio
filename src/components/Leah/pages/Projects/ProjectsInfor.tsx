@@ -3,6 +3,8 @@ import tw from 'twin.macro';
 import { ButtonSoft } from '../../../button/ButtonSoft';
 import { SideProjects } from '../../model/SideProjects';
 import { Services } from './Services';
+import Furniture from '../../videos/furniture.mp4';
+import mcDonald from '../../videos/mcdonald.mp4';
 
 interface Props {}
 
@@ -49,15 +51,39 @@ export const ProjectsInfor: React.FC<Props> = () => {
                     >
                       {project.descr}
                     </p>
+                    {/* <div
+                      className={
+                        project.furniture ? 'video-responsive ' : 'hidden'
+                      }
+                    >
+                      <iframe
+                        src={Furniture}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title={project.alt}
+                      />
+                    </div>
+                    <div
+                      className={
+                        project.mcDonald ? 'video-responsive ' : 'hidden'
+                      }
+                    >
+                      <iframe
+                        src={mcDonald}
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title={project.alt}
+                      />
+                    </div> */}
                     <ButtonSoft
                       to="home"
                       smooth={true}
                       duration={500}
                       spy={true}
                       className={
-                        project.lightBg
-                          ? 'text-bg bg-secondary-50 hover:text-primary-50'
-                          : ' text-secondary-50 bg-primary-50 hover:text-bg'
+                        project.button
+                          ? 'text-secondary-50 bg-gray-300 hover:text-gray-100 hover:bg-gray-700'
+                          : 'hidden'
                       }
                     >
                       {project.buttonLabel}

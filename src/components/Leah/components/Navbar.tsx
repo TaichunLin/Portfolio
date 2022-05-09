@@ -80,13 +80,13 @@ const Navbar: React.FC<Props> = ({ toggle }) => {
         </svg>
       </div>
       <div className="hidden pr-8 md:block">
-        <Link className="p-4" to="/egg/about">
+        <Link className="p-4" to="/leah/about">
           About
         </Link>
-        <Link className="p-4" to="/egg/projects">
+        <Link className="p-4" to="/leah/projects">
           Projects
         </Link>
-        <Link className="p-4" to="/egg/contact">
+        <Link className="p-4" to="/leah/contact">
           Contact
         </Link>
         <span className="px-4 -mb-2 font-normal ">

@@ -10,7 +10,8 @@ export const SideProjects = [
     imgStart: true,
     lightBg: true,
     lightText: true,
-    buttonLabel: 'Door accecc system',
+    buttonLabel: 'Door accecc system on GitHub',
+    button: true,
   },
   {
     id: 'Portfolio',
@@ -24,7 +25,8 @@ export const SideProjects = [
     imgStart: true,
     lightBg: true,
     lightText: true,
-    buttonLabel: 'Portfolio',
+    buttonLabel: 'Portfolio on GitHub',
+    button: true,
   },
   {
     id: 'Template for practicing',
@@ -38,7 +40,8 @@ export const SideProjects = [
     imgStart: false,
     lightBg: false,
     lightText: true,
-    buttonLabel: 'Template for practicingy',
+    buttonLabel: 'Template for practicingy on GitHub',
+    button: true,
   },
   {
     id: 'Redesign McDonald',
@@ -47,12 +50,13 @@ export const SideProjects = [
     headline: 'Redesign McDonald',
     descr:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit sequi',
-    link: 'path or url',
+    mcDonald: true,
     alt: 'Redesign McDonald video.',
     imgStart: true,
     lightBg: true,
     lightText: true,
-    buttonLabel: 'NoNo',
+    buttonLabel: 'on GitHub',
+    button: false,
   },
   {
     id: 'Imitate Furniture Website',
@@ -61,11 +65,12 @@ export const SideProjects = [
     headline: 'Imitate Furniture Website',
     descr:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit quasi ab harum natus, mollitia explicabo reprehenderit sequi',
-    link: 'path or url',
+    furniture: true,
     alt: 'Imitate Furniture Website video.',
     imgStart: true,
     lightBg: true,
     lightText: true,
-    buttonLabel: 'NoNo',
+    buttonLabel: 'on GitHub',
+    button: false,
   },
 ];
