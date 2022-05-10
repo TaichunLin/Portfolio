@@ -49,7 +49,7 @@ const Navbar: React.FC<Props> = () => {
         <div className="flex items-center space-x-2 ">
           <Link
             to="/leah"
-            className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300 hover:bg-gray-700"
+            className="px-3 pt-3 pb-2 ml-3 font-extrabold text-gray-100 bg-gray-300 md:ml-12 hover:bg-gray-700"
           >
             Leah
           </Link>
