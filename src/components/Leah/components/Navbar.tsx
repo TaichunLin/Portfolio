@@ -42,21 +42,21 @@ const Navbar: React.FC<Props> = () => {
       <nav
         role="navigation"
         className={
-          'flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300 shadow-sm ' +
+          'flex items-center justify-between h-16 font-mono text-xl font-bold text-gray-300  shadow-sm ' +
           (scrollNav ? 'bg-transparent' : 'bg-gray-100')
         }
       >
         <div className="flex items-center space-x-2 ">
           <Link
             to="/leah"
-            className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300"
+            className="px-3 pt-3 pb-2 ml-12 font-extrabold text-gray-100 bg-gray-300 hover:bg-gray-700"
           >
             Leah
           </Link>
           {socialInfos.map((socialInfo) => (
             <div key={socialInfo.name} className="">
               <a
-                className="text-3xl"
+                className="text-3xl hover:text-gray-700"
                 href={socialInfo.href}
                 target="_blank"
                 aria-label={socialInfo.name}
@@ -67,6 +67,20 @@ const Navbar: React.FC<Props> = () => {
           ))}
         </div>
 
+        <div className="hidden bg-red-500 md:block">
+          <div className="fixed top-1 right-36">
+            <div className="flex items-center justify-center p-2 transition duration-1000 ease-in-out bg-gray-300 rounded-full w-14 h-14 hover:border-double hover:border-8 ">
+              <p className="p-2 font-medium text-gray-300 transition duration-1000 ease-in-out rounded-full cursor-cell hover:text-gray-300 hover:border-x-8">
+                helloleah23@gmail.com
+              </p>
+            </div>
+          </div>
+          <div className="fixed top-1 right-36">
+            <div className="flex items-center justify-center p-2 overflow-hidden font-medium text-gray-100 transition duration-300 ease-in-out rounded-full w-14 h-14 hover:overflow-visible hover:bg-gray-100 hover:border-8 hover:border-double hover:text-gray-300">
+              <p>helloleah23@gmail.com</p>
+            </div>
+          </div>
+        </div>
         <div className="px-4 cursor-pointer md:hidden" onClick={toggleDropdown}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -83,20 +97,24 @@ const Navbar: React.FC<Props> = () => {
             />
           </svg>
         </div>
-        <div className="hidden pr-8 md:block">
-          <Link className="p-4" to="/leah/about">
-            About
-          </Link>
-          <Link className="p-4" to="/leah/projects">
-            Projects
-          </Link>
-          <Link className="p-4" to="/leah/contact">
-            Contact
-          </Link>
-          <span className="px-4 -mb-2 font-normal ">
-            {' '}
-            - helloleah23@gmail.com
-          </span>
+        <div className="hidden pr-8 mr-72 md:block">
+          <div className="flex flex-row">
+            <Link className="px-1 lg:p-4 hover:text-gray-700" to="/leah/about">
+              About
+            </Link>
+            <Link
+              className="px-1 lg:p-4 hover:text-gray-700"
+              to="/leah/projects"
+            >
+              Projects
+            </Link>
+            <Link
+              className="px-1 lg:p-4 hover:text-gray-700"
+              to="/leah/contact"
+            >
+              Contact
+            </Link>
+          </div>
         </div>
       </nav>
       <Dropdown toggle={toggleDropdown} isOpen={isOpen} />
