@@ -11,7 +11,7 @@ import { Contact } from './pages/Contact/index';
 
 const Leah = () => {
   return (
-    <div className="bg-gray-100 h-fit">
+    <div className="bg-gray-100  h-fit">
       <Navbar />
 
       <div className="flex items-center justify-center ">

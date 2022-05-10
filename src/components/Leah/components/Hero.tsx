@@ -5,7 +5,7 @@ import Pic from '../images/aboutMe2.jpeg';
 export const Hero = () => {
   return (
     <>
-      <div className="absolute top-0 w-full h-screen bg-red-500 bg-center bg-cover opacity-25">
+      <div className="absolute top-0 w-full h-screen bg-gray-300 bg-center bg-cover opacity-25">
         <img
           src={Pic}
           alt="Leah"

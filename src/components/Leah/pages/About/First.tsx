@@ -4,7 +4,7 @@ interface Props {}
 
 export const First: React.FC<Props> = () => {
   return (
-    <div className="flex flex-col items-center justify-around h-screen text-lg ">
+    <div className="flex flex-col items-center justify-around text-lg md:h-screen ">
       <div className="p-5 text-gray-300 border-b-2 border-gray-300">
         {' '}
         part of me

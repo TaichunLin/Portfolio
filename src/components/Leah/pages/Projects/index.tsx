@@ -8,11 +8,11 @@ export const ProjectsPage = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center h-screen">
-        <div className="flex flex-col items-center justify-center w-screen h-72">
-          <p className="font-extrabold md:tracking-widest text-gray-300/25 md:text-[200px] text-9xl mb-5">
+        <div className="flex flex-col items-center justify-center w-screen sm:overflow-hidden">
+          <p className="font-extrabold md:tracking-widest text-gray-300/25 md:text-[200px] mb-5 text-7xl">
             Projects
           </p>
-          <p className="font-extrabold md:tracking-widest text-gray-300/25 md:text-[200px] text-9xl ">
+          <p className="font-extrabold md:tracking-widest text-gray-300/25 md:text-[200px] text-7xl">
             ▼
           </p>
         </div>

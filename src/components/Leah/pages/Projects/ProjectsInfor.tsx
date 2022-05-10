@@ -60,7 +60,7 @@ export const ProjectsInfor: React.FC<Props> = () => {
                       aria-label={project.buttonLabel}
                       className={
                         project.button
-                          ? 'w-fit text-secondary-50 bg-gray-300 hover:text-gray-100 hover:bg-gray-700'
+                          ? 'w-fit text-gray-700/90 bg-gray-300 hover:text-gray-100 hover:bg-gray-700'
                           : 'hidden'
                       }
                     >

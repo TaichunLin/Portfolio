@@ -1,6 +1,4 @@
 import React from 'react';
-import ImgOne from '../images/egg.jpg';
-import ImgTwo from '../images/egg-2.jpg';
 
 export const Content = () => {
   return (

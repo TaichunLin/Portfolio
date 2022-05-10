@@ -17,12 +17,12 @@ export const Second: React.FC<Props> = () => {
   };
 
   return (
-    <div>
-      <div className="grid grid-rows-2 gap-4 m-20 divide-x xl:grid-flow-col max-w-screen divide-slate-700 h-fit">
-        <div className="2xl:max-w-[400px] xl:max-w-[200px] row-span-2 p-5 my-5 font-extrabold text-7xl xl:mx-10 2xl:ml-20 xl:text-right  text-gray-300">
+    <div className="h-fit">
+      <div className="grid grid-rows-2 gap-4 divide-x md:m-20 sm:m-10 xl:grid-flow-col max-w-screen divide-slate-700">
+        <div className="2xl:max-w-[400px] xl:max-w-[200px] w-full row-span-2 p-5 my-5 font-extrabold text-7xl xl:mx-10 2xl:ml-20 xl:text-right text-gray-300 h-fit">
           Before I started coding and after
         </div>
-        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit">
+        <div className="py-5 text-lg leading-relaxed bg-transparent md:m-5 md:px-10 text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit ">
           <p className="font-extrabold text-gray-300">
             Before I staretd coding
           </p>
@@ -30,7 +30,7 @@ export const Second: React.FC<Props> = () => {
           {Experience.map((experience) => (
             <div
               key={experience.id}
-              className="flex flex-col items-center rounded-lg lg:mx-5 p-7"
+              className="flex flex-col items-center rounded-lg lg:mx-5 sm:mx-0 p-7"
             >
               <p className="mb-3 font-bold sm:text-4xl">
                 {experience.headline}
@@ -57,7 +57,7 @@ export const Second: React.FC<Props> = () => {
           ))}
           {/* <Pic /> */}
         </div>
-        <div className="px-10 py-5 m-5 text-lg leading-relaxed bg-transparent text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit lg:-mt-30">
+        <div className="py-5 text-lg leading-relaxed bg-transparent md:m-5 md:px-10 text-gray-700/25 md:ml-20 md:col-span-2 md:min-w-4xl indent-8 h-fit lg:-mt-30">
           <p className="font-extrabold text-gray-300">Coding journey</p>
           <hr className="mb-4" />
           {AfterCollege.map((detail) => (

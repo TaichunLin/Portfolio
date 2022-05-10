@@ -3,7 +3,6 @@ import Leah from './components/Leah';
 import { MainWeb } from './components/mainWeb';
 import { Route, Routes, Link } from 'react-router-dom';
 import Counter from './components/mainWeb/containers/CenterSection/Counter';
-import { Home } from './components/mainWeb/pages/Menupages/Home';
 import { Catelogue } from './components/catelogue';
 
 function App() {
