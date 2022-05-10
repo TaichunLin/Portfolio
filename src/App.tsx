@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/mainweb/*" element={<MainWeb />} />
         <Route path="/" element={<Catelogue />} />
-        <Route path="/catelogue" element={<Catelogue />} />
-        <Route path="/portfolio/" element={<Catelogue />} />
+        <Route path="/portfolio/catelogue" element={<Catelogue />} />
+        <Route path="/portfolio/" element={<Leah />} />
         <Route path="/counter" element={<Counter buttonText="Click Me!" />} />
         <Route path="/leah/*" element={<Leah />} />
       </Routes>
